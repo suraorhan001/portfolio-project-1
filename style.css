@@ -1,0 +1,220 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    /* background-color:hwb(11 85% 4%); */
+    background-image: url(image/developer.png),url(image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,right bottom;
+
+}
+nav{
+display: flex;
+justify-content: space-between;
+padding: 30px 20px;
+margin: 0 100px ;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+.N-div{
+    display: flex;
+    gap: 20px;
+    
+}
+.N-btn{
+    height: 55px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 20px;
+
+}
+nav h1{
+    font-weight:800;
+    font-size: 45px;
+    color: rgb(16, 16, 16);
+}
+nav ul li{ 
+    padding: 15px 10px;
+}
+nav ul li a{
+    color:rgb(85, 84, 84) 
+}
+.N-btn{
+    height:64px 150px ;
+    border: none;
+    border-radius: 2px;
+}
+.o-color{
+background-color:rgb(255, 69, 0);
+}
+.s-color{
+    color:rgb(255, 69, 0);
+} 
+
+
+ /* =====nav end==== */
+ .banner{
+    display: flex;
+    gap:100px;
+    margin:60px 30px 0px 200px;
+
+ }
+ 
+ .banner-content{
+   
+   width: 700px;
+    /* border: 2px solid black; */
+    padding:150px 50px 50px 50px ;
+  
+ }
+ .banner img{
+    height: 550px;
+ }
+ .banner-greetings{
+    font-weight: 400;
+    font-size: 45px;
+    color: rgb(59, 57, 57);
+    margin-bottom: 10px;
+
+ }
+ .person-name{
+    font-weight: 900;
+    font-size:85px;
+    color: rgb(22, 22, 22);
+    margin-bottom: 20px;
+ }
+ .banner-des{
+    font-size: 18px;
+    color: gray;
+    margin-bottom: 30px;
+ }
+ .btn-primary{
+    height: 64px;
+    width: 200px;
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .btn-primary2{
+    height: 64px;
+    width: 200px;
+    color:rgb(255, 69, 0); 
+    border: 1px solid rgb(255, 69, 0);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+ }
+ /* ====header end=== */
+ .about-container{
+    margin: 80px auto;
+    padding: 30px;
+    width: 1000px;
+    /* border: 2px solid; */
+    background-color:#FFF8F3;
+ }
+ .main{
+    /* border: 2px solid; */
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+ }
+ .main h1{
+    font-size: 35px;
+ }
+ .small-divs{
+    display: flex;
+    margin: 35px 80px 25px 80px;
+    gap: 35px;
+    font-size: 18px;
+
+ }
+.small-divs h5{
+
+    color: rgba(128, 128, 128,0.7);
+
+}
+/* ====ABOUT END=== */
+.work-details{
+    text-align: center;
+    margin: 90px 250px;
+}
+.work-details h2{
+    font-size: 35px;
+}
+.work-details p{
+    font-size: 18px;
+     color: rgba(128, 128, 128,0.7);
+
+}
+/* ==work end== */
+.skills{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color:rgba(232, 229, 229, 0.3);
+    margin: 50px 90px;
+}
+.card{
+    padding: 25px;
+    height: 300px;
+    background-color: white;
+    margin:0 20px;
+    border-radius: 2px;
+    
+}
+/* =====end== */
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+}
+.resu-m{
+    display: flex;
+    gap: 20px;
+    margin: 70px 150px;
+}
+.main1{
+    
+    height: 500px;
+}
+.main1 h2{
+    color: rgb(39, 39, 39);
+    font-size: 30px;
+}
+.box h3{
+  color: rgb(39, 39, 39);
+    font-size: 25px;  
+}
+.box h4{
+    color: rgb(129, 127, 127);
+    font-size: 20px;  
+}
+.box p{
+    color: rgba(129, 127, 127,0.4);
+    font-size: 20px;
+}
