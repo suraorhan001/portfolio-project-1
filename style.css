@@ -268,3 +268,168 @@ footer h1{
     padding: 5px;
     border: none;
 }
+ .hide{
+    display: none;
+ }
+ @media screen and (max-width:576px){
+    header{
+        background-image: none;
+        width: 80%;
+
+    }
+    .banner-img{
+        width:100%;
+        margin-left: 30px;
+        
+        
+    }
+    .banner-img img{
+        height: 350px;
+        width:100%;
+
+    }
+    nav{
+        flex-direction: column;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+    .skills{
+        flex-direction: column;
+        padding: 10px;
+        margin: 20px;
+    }
+    .last-btn{
+        margin-left: 30%;
+        height: 45px;
+        width: 170px;
+     
+       font-size: 18px;
+    }
+    .banner{
+        flex-direction: column;
+        width: 80%;
+        padding: 10px;
+        margin: 5px;
+    }
+    .banner h4{
+        font-size: 25px;
+    }
+    .banner-content{
+        width: 50%;
+        flex-direction: column;
+    }
+    .banner h1{
+        font-size: 35px;
+    }
+      .resume h1{
+        font-size: 24px;
+      }
+    .resu-m{
+        flex-direction: column;
+        margin: 20px;
+        
+        padding: 20px;
+        
+    }
+    .main1{
+        height: auto;
+       
+    }
+    .main1 p{
+        font-size: 12px;
+    }
+    .main1 h2{
+        font-size: 18px;
+    }
+    .box h3{
+        font-size: 12px;
+    }
+    .box h4{
+        font-size:13px ;
+    }
+    .work-details{
+        margin: 40px;
+        padding: 40px;
+        background-color: antiquewhite;
+       
+    }
+    .work-details h2{
+        font-size: 20px;
+    }
+    .work-details p{
+        font-size: 12px;
+    }
+    .about-container{
+       
+       width: 97%;
+       padding: 10px;
+       margin: 5px;
+      
+    }
+
+ .main h1{
+           font-size: 14px;
+           }
+           .main p{
+            font-size: 12px;
+           }
+    
+    .small-divs{
+        flex-direction: column;
+        margin: 10px;
+        padding: 5px;
+        gap: 3px;
+    }
+    .small-divs h4{
+        font-size: 12px;
+    }
+    .small-divs h5{
+        font-size: 12px;
+    }
+    footer{
+        flex-direction: column;
+        height: auto;
+    }
+    footer h1{
+        font-size: 16px;
+    }
+    footer p{
+        font-size: 12px;
+        
+    }
+    .banner-content{
+        margin-left: 50px;
+    }
+    .banner-content p{
+        font-size: 12px;
+    }
+    .btn-primary{
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    
+    }
+    .btn-primary2{
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+        margin: 0 ;
+        margin-top: 10px;
+    }
+    .f-box1 {
+        width: 80%;
+        
+    }
+    .f-box2 {
+   width:80%;
+       
+    }
+
+ }
+
+
+ @media  and (max-width:576px)( min-width:992px) {
+    
+ }
